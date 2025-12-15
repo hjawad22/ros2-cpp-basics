@@ -1,0 +1,32 @@
+# ------------------------------
+# ROS 2 Workspace Ignore
+# ------------------------------
+
+# Build artifacts
+/build/
+/install/
+/log/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editor / IDE files
+.vscode/
+*.swp
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup / temporary files
+*.bak
+*.tmp
+
+# Python cache (if using Python nodes in future)
+__pycache__/
+*.pyc
+*.pyo
