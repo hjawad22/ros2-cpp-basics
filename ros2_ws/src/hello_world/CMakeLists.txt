@@ -15,6 +15,9 @@ find_package(rclcpp REQUIRED)
 add_executable(talker src/talker.cpp)
 ament_target_dependencies(talker rclcpp)
 
+add_executable(listener src/listener.cpp)
+ament_target_dependencies(listener rclcpp std_msgs)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -29,6 +32,7 @@ endif()
 
 install(TARGETS
 talker
+listener
 DESTINATION lib/${PROJECT_NAME}
 )
 
