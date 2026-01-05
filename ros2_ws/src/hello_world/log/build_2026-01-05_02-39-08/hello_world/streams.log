@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world -- -j4 -l4
+[0.026s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.128s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.140s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.250s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.258s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.306s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.306s] -- Configured cppcheck include dirs: 
+[0.306s] -- Configured cppcheck exclude dirs and/or files: 
+[0.307s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.307s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.308s] -- Added test 'lint_cmake' to check CMake code style
+[0.309s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.312s] -- Added test 'uncrustify' to check C / C++ code style
+[0.312s] -- Configured uncrustify additional arguments: 
+[0.313s] -- Added test 'xmllint' to check XML markup files
+[0.313s] -- Configuring done (0.3s)
+[0.321s] -- Generating done (0.0s)
+[0.324s] -- Build files have been written to: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world
+[0.339s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.344s] [ 75%] Built target listener
+[2.428s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.506s] [100%] Built target talker
+[2.511s] Invoked command in '/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world -- -j4 -l4
+[2.517s] Invoking command in '/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world
+[2.520s] -- Install configuration: ""
+[2.520s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/lib/hello_world/talker
+[2.520s] -- Set non-toolchain portion of runtime path of "/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/lib/hello_world/talker" to ""
+[2.520s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/lib/hello_world/listener
+[2.530s] -- Set non-toolchain portion of runtime path of "/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/lib/hello_world/listener" to ""
+[2.530s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+[2.531s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+[2.531s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/path.sh
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/path.dsv
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.bash
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.sh
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.zsh
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.dsv
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/package.dsv
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/ament_index/resource_index/packages/hello_world
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+[2.532s] -- Installing: /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/package.xml
+[2.534s] Invoked command in '/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/build/hello_world

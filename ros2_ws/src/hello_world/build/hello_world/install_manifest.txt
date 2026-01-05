@@ -1,0 +1,17 @@
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/lib/hello_world/talker
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/lib/hello_world/listener
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/path.sh
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/environment/path.dsv
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.bash
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.sh
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.zsh
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/local_setup.dsv
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/package.dsv
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/ament_index/resource_index/packages/hello_world
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/install/hello_world/share/hello_world/package.xml

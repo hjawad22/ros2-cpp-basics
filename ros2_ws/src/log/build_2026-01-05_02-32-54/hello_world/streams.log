@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/houda/ros2-cpp-basics/ros2_ws/src/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/houda/ros2-cpp-basics/ros2_ws/src/build/hello_world -- -j4 -l4
+[0.033s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.156s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.175s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.241s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.243s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.320s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.329s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.380s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.380s] -- Configured cppcheck include dirs: 
+[0.380s] -- Configured cppcheck exclude dirs and/or files: 
+[0.381s] -- Added test 'lint_cmake' to check CMake code style
+[0.381s] -- Added test 'uncrustify' to check C / C++ code style
+[0.381s] -- Configured uncrustify additional arguments: 
+[0.381s] -- Added test 'xmllint' to check XML markup files
+[0.382s] -- Configuring done (0.4s)
+[0.392s] -- Generating done (0.0s)
+[0.393s] -- Build files have been written to: /home/houda/ros2-cpp-basics/ros2_ws/src/build/hello_world
+[0.409s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[0.413s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[0.550s] [01m[K/home/houda/ros2-cpp-basics/ros2_ws/src/hello_world/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.550s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.550s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.550s] compilation terminated.
+[0.552s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[0.552s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.552s] gmake[1]: *** Waiting for unfinished jobs....
+[3.855s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[4.003s] [ 75%] Built target listener
+[4.003s] gmake: *** [Makefile:146: all] Error 2
+[4.008s] Invoked command in '/home/houda/ros2-cpp-basics/ros2_ws/src/build/hello_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/houda/ros2-cpp-basics/ros2_ws/src/build/hello_world -- -j4 -l4

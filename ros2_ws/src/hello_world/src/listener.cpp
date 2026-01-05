@@ -15,7 +15,7 @@ public:
   }
 
 private:
-  void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
+  void topic_callback(const std_msgs::msg::String::SharedPtr msg) 
   {
   RCLCPP_INFO_STREAM(
   this->get_logger(),
